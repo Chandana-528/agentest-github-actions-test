@@ -32,7 +32,7 @@ jobs:
         run: |
           agentest std run \
             --agents agents \
-            --agent refill_bot \
+            --agent refill_bot_buggy \
             --mode strict \
             --format junit \
             --out agentest.xml \
